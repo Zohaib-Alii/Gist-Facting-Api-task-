@@ -1,0 +1,58 @@
+/* navbar css here */
+
+.navbar{
+    height: 15vh;
+    background-color: blue;
+}
+
+/* Home css here */
+
+.mainWrapper{
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+}
+.innerWrapper{
+    width: 80%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+}
+/* card css here */
+
+.assignCol{
+width: 32.9%;
+    /* border: 2px solid blueviolet; */
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+
+}
+.fileName{
+    background-color: cadetblue;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    padding: 5px  10px; 
+    margin: 0 3px;
+}
+.cardData{
+    width: 85%;
+        /* background: aquamarine; */
+}
+.cardDataWrapper{
+    display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+}
+.cardHeading{
+    margin-top: 10px;
+}
+.fileType{
+    /* background: aqua; */
+        border: none;
+        border-radius: 14px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+}
